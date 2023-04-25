@@ -466,13 +466,6 @@ ul {
 $colors: (
   white: #fff,
 
-  orange: #f2711c,
-
-  olive: #b5cc18,
-
-  violet: #6435c9,
-  pink: #e03997,
-
   grey: #a8a8a8,
   blue: #0000a9,
   green: #00a701,
@@ -507,7 +500,7 @@ $colors: (
     height: 100%;
     transition: transform 0.2s ease-in-out;
     @each $name, $value in $colors {
-      &.#{$name} {
+      &.#{'' + $name} {
         background: $value;
       }
     }
