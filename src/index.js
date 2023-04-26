@@ -47,6 +47,14 @@ if (quizFormRef) {
   checkValue();
 }
 
+const goToPage = () => {
+  let currentPage = window.location.pathname.replace(/\D/g, '');
+
+  count += Number(currentPage);
+
+  window.location.href = `/quiz/${count}`;
+};
+
 function onSubmitValue(evt) {
   evt.preventDefault();
   const currentItem = evt.currentTarget.item.value;
@@ -55,11 +63,3 @@ function onSubmitValue(evt) {
 
   goToPage();
 }
-
-const goToPage = () => {
-  let currentPage = window.location.pathname.replace(/\D/g, '');
-
-  count += Number(currentPage);
-
-  window.location.href = `/quiz/${count}`;
-};
