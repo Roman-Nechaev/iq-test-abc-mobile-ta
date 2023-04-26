@@ -3,7 +3,7 @@ import initRouter from './router/index';
 initRouter();
 
 import './features/menu';
-import './features/dataStor';
+// import './features/dataStor';
 
 import { startTimer } from './features/timer';
 import { isPrintText } from './features/printText';
