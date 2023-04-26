@@ -95,7 +95,7 @@ const initRouter = () => {
       goTo(path);
     });
   });
-  render(new URL(window.location.href).pathname);
+  return render(new URL(window.location.href).pathname);
 };
 
 export default initRouter;
