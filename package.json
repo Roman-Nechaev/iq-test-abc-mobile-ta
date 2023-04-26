@@ -2,7 +2,6 @@
   "name": "iq-test-abc-mobile-ta",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Roman-Nechaev.github.io/iq-test-abc-mobile-ta",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /iq-test-abc-mobile-ta/"
