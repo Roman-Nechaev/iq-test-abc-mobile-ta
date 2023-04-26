@@ -78,7 +78,25 @@ export const render = path => {
   document.querySelector('#app').innerHTML = result;
 };
 
+export const goTo = path => {
+  console.log(path);
+  window.history.pushState({ path }, path, path);
+  render(path);
+};
+
 const initRouter = () => {
+  window.addEventListener('popstate', e => {
+    render(new URL(window.location.href).pathname);
+  });
+
+  document.querySelectorAll('[href^="/"]').forEach(el => {
+    el.addEventListener('click', e => {
+      e.preventDefault();
+      const { pathname: path } = new URL(e.target.href);
+      console.log(path);
+      goTo(path);
+    });
+  });
   render(new URL(window.location.href).pathname);
 };
 
