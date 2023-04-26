@@ -1,38 +1,51 @@
 <section class='overlay-background'>
-  <div class='container section-q1'>
+  <div class='container wrapper'>
 
-    <form class='q1-form form' id='quizForm'>
-      <p class='q1-form-title'>Вам привычнее и важнее:
-      </p>
-      <label class='question-text-form_label'>
-        <input
-          class='question text form'
-          type='radio'
-          name='item'
-          value='false'
-        />
-        Наслаждаться каждой минутой проведенного времени
-      </label>
-      <label class='question-text-form_label'>
-        <input
-          class='question text form'
-          type='radio'
-          name='item'
-          value='false'
-        />
-        Быть устремленными мыслями в будущее
-      </label>
-      <label class='question-text-form_label'>
-        <input
-          class='question text form'
-          type='radio'
-          name='item'
-          value='false'
-        />
-        Учитывать в ежедневной практике прошлый опыт
-      </label>
+    <div class='progress-container'>
+      <div class='progress-bar' id='progressBar'></div>
+    </div>
 
-      <button class='btn btn-q1' type='submit'>Далее</button>
+    <p class='question-title q9-title'>Вам привычнее и важнее:
+    </p>
+
+    <form class='quiz-form' id='quizForm'>
+
+      <input
+        id='enjoy'
+        class='quiz-form_input'
+        type='radio'
+        name='item'
+        value='false'
+      />
+      <label for='enjoy' class='quiz-form_label form_label-q9-mod'>
+
+        <span>Наслаждаться каждой минутой проведенного времени</span>
+      </label>
+      <input
+        id='future'
+        class='quiz-form_input'
+        type='radio'
+        name='item'
+        value='false'
+      />
+      <label for='future' class='quiz-form_label form_label-q9-mod'>
+
+        <span>Быть устремленными мыслями в будущее</span>
+      </label>
+      <input
+        id='experience'
+        class='quiz-form_input'
+        type='radio'
+        name='item'
+        value='false'
+      />
+      <label for='experience' class='quiz-form_label form_label-q9-mod'>
+
+        <span>Учитывать в ежедневной практике прошлый опыт</span>
+      </label>
+      <div class='btn-cont'>
+        <button class='btn' type='submit'>Далее</button>
+      </div>
     </form>
 
   </div>

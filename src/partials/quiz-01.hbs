@@ -1,34 +1,41 @@
 <section class='overlay-background'>
-  <div class='container section-q1'>
 
-    <p class='question-title'>Ваш пол:</p>
-    <form class='q1-form' id='quizForm'>
+  <div class='container wrapper'>
+
+    <div class='progress-container'>
+      <div class='progress-bar' id='progressBar'></div>
+    </div>
+
+    <p class='question-title q1-title'>Ваш пол:</p>
+    <form class='quiz-form' id='quizForm'>
 
       <input
         id='man'
-        class='question-text-form_input'
+        class='quiz-form_input'
         type='radio'
         name='item'
         value='man'
       />
-      <label for='man' class='question-text-form_label'>
+      <label for='man' class='quiz-form_label'>
 
         Мужчина
       </label>
       <input
         id='woman'
-        class='question-text-form_input'
+        class='quiz-form_input'
         type='radio'
         name='item'
         value='woman'
       />
-      <label for='woman' class='question-text-form_label'>
+      <label for='woman' class='quiz-form_label'>
 
         Женщина
       </label>
-      <button class='btn btn-q1' type='submit'>Далее</button>
-
+      <div class='btn-cont'>
+        <button class='btn' type='submit'>Далее</button>
+      </div>
     </form>
 
   </div>
+
 </section>

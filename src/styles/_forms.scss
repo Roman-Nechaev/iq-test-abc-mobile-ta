@@ -1,0 +1,199 @@
+.quiz-form {
+  font-family: 'PT Serif';
+  font-size: 18px;
+  line-height: 272.222222%; /* 49/18 */
+
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.quiz-form_label-mod {
+  height: 40px;
+  display: flex;
+
+  & span {
+    line-height: 230%;
+  }
+}
+
+.quiz-form_label {
+  display: flex;
+  margin-bottom: 8px;
+
+  background: #f2f3f321;
+
+  transition: 0.2s all linear;
+
+  &:hover,
+  :focus {
+    background: #ffc700;
+    color: #0d0c11;
+  }
+}
+
+.quiz-form_input {
+  display: none;
+
+  cursor: pointer;
+
+  outline: none;
+
+  &:checked + label {
+    background: #ffc700;
+    color: #0d0c11;
+  }
+  + label {
+    &:before {
+      content: '';
+      align-self: center;
+      border-radius: 100%;
+      border: 1px solid #ffffff;
+      width: 20px;
+      height: 20px;
+      position: relative;
+
+      margin-left: 25px;
+      margin-right: 40px;
+
+      transition: all 250ms ease;
+    }
+  }
+  &:checked {
+    + label {
+      &:before {
+        background: #2950c2;
+        border: 1px solid #272727;
+      }
+    }
+  }
+}
+
+.form_label-q9-mod {
+  margin-bottom: 20px;
+
+  & span {
+    width: 200px;
+    height: 100px;
+    padding-top: 10px;
+    font-family: 'PT Serif';
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 111.111111%; /* 20/18 */
+  }
+}
+
+/* КВИЗ 5  */
+
+$colors: (
+  grey: #a8a8a8,
+  blue: #0000a9,
+  green: #00a701,
+  red: #f60001,
+  yellow: #feff17,
+  brown: #a95402,
+  black: #000000,
+  purple: #850068,
+  teal: #46b2ad,
+);
+
+.quiz-form-color_input {
+  display: none;
+  &:checked + label {
+    span {
+      transform: scale(1.1);
+      border: 6px solid #ffc700;
+    }
+  }
+}
+
+.quiz-form-color_label {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+
+  cursor: pointer;
+
+  span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.2s ease-in-out;
+    @each $name, $value in $colors {
+      &.#{'' + $name} {
+        background: $value;
+      }
+    }
+  }
+}
+
+.quiz-form_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+// Q8
+.quiz-form_wrapper-cards {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+.quiz-form_cards-input {
+  display: none;
+  &:checked + label {
+    span {
+      transform: scale(1.1);
+      outline: 2px solid #ffc700;
+    }
+  }
+}
+
+.quiz-form_cards-label {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-top: 25px;
+  cursor: pointer;
+
+  span {
+    display: block;
+
+    line-height: 245%;
+
+    text-align: center;
+
+    color: #000000;
+
+    transition: transform 0.2s ease-in-out;
+
+    background: #ffffff;
+  }
+}
+
+.quiz-form_label-mod-q10 {
+  font-style: normal;
+
+  font-size: 16px;
+  line-height: 106%;
+
+  letter-spacing: 0.05em;
+
+  & span {
+    padding-top: 10px;
+    min-height: 50px;
+  }
+}
+
+.quiz-form_input-mod-q10 {
+  + label {
+    &:before {
+      width: 30px;
+      height: 20px;
+    }
+  }
+}

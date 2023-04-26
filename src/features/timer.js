@@ -1,4 +1,4 @@
-let numberOfMinutes = 1;
+let numberOfMinutes = 10;
 let currentTime = new Date();
 
 let deadlineTime = currentTime.setMinutes(

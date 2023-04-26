@@ -1,0 +1,42 @@
+.overlay-background {
+  background-image: url('../images/rain_bk2.jpg');
+}
+
+.border-el {
+  margin-top: 20px;
+
+  border: 2px solid #f2f3f382;
+}
+
+.finish-decor_left {
+  display: block;
+  position: absolute;
+  top: 340px;
+  left: 0;
+
+  z-index: 1;
+
+  width: 200px;
+  height: 200px;
+
+  display: block;
+  background: url('../images/lightning_PNG9.png');
+  color: #0000a9;
+  background-repeat: no-repeat;
+}
+
+.finish-decor_right {
+  position: absolute;
+  top: 380px;
+  right: -36%;
+
+  z-index: 1;
+
+  width: 200px;
+  height: 200px;
+
+  display: block;
+  background: url('../images/lightning_PNG9_right.png');
+
+  background-repeat: no-repeat;
+}

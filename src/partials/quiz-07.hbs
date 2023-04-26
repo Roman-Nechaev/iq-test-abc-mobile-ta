@@ -1,63 +1,82 @@
 <section class='overlay-background'>
-  <div class='container section-q1'>
 
-    <form class='q1-form form' id='quizForm'>
-      <p class='q1-form-title'>Какой из городов лишний? </p>
-      <label class='question-text-form_label'>
-        <input
-          class='question text form'
-          type='radio'
-          name='item'
-          value='false'
-        />
-        Вашингтон
+  <div class='container wrapper'>
+
+    <div class='progress-container'>
+      <div class='progress-bar' id='progressBar'></div>
+    </div>
+    <p class='question-title q7-title'>Какой из городов лишний? </p>
+
+    <form class='quiz-form' id='quizForm'>
+      <input
+        id='washington'
+        class='quiz-form_input'
+        type='radio'
+        name='item'
+        value='false'
+      />
+      <label for='washington' class='quiz-form_label quiz-form_label-mod'>
+
+        <span>Вашингтон</span>
       </label>
-      <label class='question-text-form_label'>
-        <input
-          class='question text form'
-          type='radio'
-          name='item'
-          value='false'
-        />
-        Лондон
+      <input
+        id='london'
+        class='quiz-form_input'
+        type='radio'
+        name='item'
+        value='false'
+      />
+      <label for='london' class='quiz-form_label quiz-form_label-mod'>
+
+        <span>Лондон</span>
       </label>
-      <label class='question-text-form_label'>
-        <input
-          class='question text form'
-          type='radio'
-          name='item'
-          value='false'
-        />
-        Париж
+      <input
+        id='paris'
+        class='quiz-form_input'
+        type='radio'
+        name='item'
+        value='false'
+      />
+      <label for='paris' class='quiz-form_label quiz-form_label-mod'>
+
+        <span>Париж</span>
       </label>
-      <label class='question-text-form_label'>
-        <input
-          class='question text form'
-          type='radio'
-          name='item'
-          value='true'
-        />
-        Нью-Йорк
+      <input
+        id='newYork'
+        class='quiz-form_input'
+        type='radio'
+        name='item'
+        value='true'
+      />
+      <label for='newYork' class='quiz-form_label quiz-form_label-mod'>
+
+        <span>Нью-Йорк</span>
       </label>
-      <label class='question-text-form_label'>
-        <input
-          class='question text form'
-          type='radio'
-          name='item'
-          value='false'
-        />
-        Москва
+      <input
+        id='moscow'
+        class='quiz-form_input'
+        type='radio'
+        name='item'
+        value='false'
+      />
+      <label for='moscow' class='quiz-form_label quiz-form_label-mod'>
+
+        <span>Москва</span>
       </label>
-      <label class='question-text-form_label'>
-        <input
-          class='question text form'
-          type='radio'
-          name='item'
-          value='false'
-        />
-        Оттава
+      <input
+        id='ottawa'
+        class='quiz-form_input'
+        type='radio'
+        name='item'
+        value='false'
+      />
+      <label for='ottawa' class='quiz-form_label quiz-form_label-mod'>
+
+        <span>Оттава</span>
       </label>
-      <button class='btn btn-q1' type='submit'>Далее</button>
+      <div class='btn-cont'>
+        <button class='btn' type='submit'>Далее</button>
+      </div>
     </form>
 
   </div>

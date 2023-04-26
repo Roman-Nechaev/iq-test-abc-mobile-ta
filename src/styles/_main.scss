@@ -1,0 +1,268 @@
+.section-hero {
+  padding-top: 25px;
+}
+
+.hero-legend {
+  font-size: 18px;
+  line-height: 133.333333%; /* 24/18 */
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.hero-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Yeseva One';
+
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 102.941176%; /* 35/34 */
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffc700;
+}
+
+.hero-img {
+  width: 120px;
+  height: 100px;
+
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.btn {
+  width: 190px;
+  display: flex;
+  margin: 0 auto;
+
+  padding: 10px 15px;
+  justify-content: center;
+
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 128.571429%; /* 18/14 */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #0d0c11;
+
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #ffc700;
+  transition: 0.2s all linear;
+  &:disabled {
+    color: #8e8e8e;
+    background: #dadada;
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    cursor: not-allowed;
+  }
+  &:hover {
+    background: #b3ff03;
+  }
+}
+
+.hero-text {
+  margin-top: 20px;
+
+  font-family: 'PT Serif';
+
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 127%;
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #ffc700;
+  & span {
+    color: #ffffff;
+  }
+}
+
+.hero-span-load-more {
+  margin-top: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-text-load-more {
+  display: block;
+  padding-bottom: 10px;
+
+  font-family: 'PT Serif';
+  font-size: 8px;
+  line-height: 137.5%; /* 11/8 */
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.btn-mod {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  color: #ffffff;
+  background: #dadada00;
+  border: 1px solid #ffffff;
+  box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+}
+
+.wrapper-aside {
+  height: 340px;
+  text-align: center;
+}
+.overlay-aside {
+  background-image: radial-gradient(
+      84.34% 50.29% at 48.75% 49.71%,
+      #2950c2 0%,
+      rgba(38, 91, 199, 0.96) 40.62%,
+      rgba(39, 98, 187, 0) 85.42%
+    ),
+    url('../images/overlay-aside.png');
+}
+
+.marks {
+  display: block;
+  font-size: 55px;
+  text-align: start;
+}
+.marks-after {
+  margin-top: 10px;
+  text-align: end;
+}
+
+.aside-text {
+  padding-top: 90px;
+
+  font-family: 'Yeseva One';
+  font-size: 18px;
+  line-height: 127.777778%; /* 23/18 */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.overlay-benefits {
+  background: #ffffff;
+}
+
+.benefits-wrapper {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.benefits-text {
+  font-family: 'PT Serif';
+
+  font-size: 16px;
+  line-height: 150%; /* 24/16 */
+
+  letter-spacing: 0.05em;
+
+  color: #272727;
+  & span {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.benefits-img {
+  width: 232px;
+  margin: 0 auto;
+}
+
+.description-wrapper {
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 13px;
+}
+
+.description-text {
+  font-family: 'Merriweather';
+
+  font-size: 15px;
+  line-height: 133.333333%; /* 20/15 */
+
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+  & span {
+    font-weight: 900;
+    color: #ffc700;
+  }
+}
+
+.description-info {
+  z-index: 2;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  padding: 30 15;
+
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 143.75%; /* 23/16 */
+
+  letter-spacing: 0.05em;
+
+  color: #181818;
+
+  background: rgba(243, 243, 242, 0.8);
+  border-radius: 20px;
+  & span {
+    font-weight: 700;
+  }
+}
+.description-decor {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+
+  top: 40px;
+  right: -77px;
+
+  background: url('../images/lightning.png');
+  background-repeat: no-repeat;
+}
+
+.description-decor-left {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+
+  top: 220px;
+  left: 0;
+
+  background: url('../images/lightning2.png');
+  background-repeat: no-repeat;
+}
+
+.copyright {
+  margin-top: 50px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 230%; /* 23/10 */
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: rgba(255, 255, 255, 0.5);
+}

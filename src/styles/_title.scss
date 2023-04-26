@@ -1,0 +1,200 @@
+.question-title {
+  font-family: 'PT Serif';
+
+  font-size: 19px;
+  line-height: 163.157895%; /* 31/19 */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.q1-title {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.q2-title {
+  margin-top: 65px;
+  margin-bottom: 50px;
+}
+.q3-title {
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+.q4-title {
+  margin-top: 30px;
+  margin-bottom: 35px;
+  font-size: 18px;
+}
+
+.q5-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  line-height: 121.052632%; /* 23/19 */
+}
+.q6-title {
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+  line-height: 121.052632%; /* 23/19 */
+}
+
+.q7-title {
+  margin-top: 40px;
+  margin-bottom: 25px;
+
+  font-size: 22px;
+  line-height: 130%; /* 26/20 */
+}
+
+.q8-title {
+  margin-top: 20px;
+  margin-bottom: 25px;
+
+  font-size: 18px;
+  line-height: 133.333333%; /* 24/18 */
+}
+
+.q9-title {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.q10-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  font-size: 16px;
+  line-height: 131.25%; /* 21/16 */
+}
+
+.q11-title {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 15px;
+
+  font-size: 20px;
+  line-height: 120%;
+
+  max-width: 256px;
+}
+.q12-title {
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 23px;
+  line-height: 130.434783%; /* 30/23 */
+}
+
+.q13-title {
+  padding-bottom: 5px;
+
+  font-size: 16px;
+  line-height: 100%; /* 16/16 */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.wrapper_desc-title {
+  font-family: 'Yeseva One';
+
+  font-size: 12px;
+  line-height: 116.666667%; /* 14/12 */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #ffc700;
+}
+
+.fetch-content {
+  padding: 5px;
+  font-size: 20px;
+  color: #ffffff;
+  background: #7c9a9a61;
+
+  text-align: center;
+
+  border-radius: 5px;
+}
+
+.copy {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+
+  font-size: 7px;
+  line-height: 128.571429%; /* 9/7 */
+
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.finish-lead {
+  font-family: 'PT Serif';
+
+  font-size: 11px;
+  line-height: 272.727273%; /* 30/11 */
+
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #3bde7c;
+}
+
+.finish-desc {
+  padding: 10 15;
+
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 175%; /* 14/8 */
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  border-radius: 6px;
+
+  background: #1c2741;
+  color: #ffffff;
+}
+
+.finish-subtitle {
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+  font-family: 'PT Serif';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 122.222222%; /* 22/18 */
+
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #3bde7c;
+}
+
+.finish-text {
+  font-family: 'PT Serif';
+  font-size: 14px;
+  line-height: 128.571429%; /* 18/14 */
+  text-align: center;
+
+  color: #ffffff;
+  & span {
+    text-decoration-line: underline;
+  }
+}
+
+.text-timer {
+  margin: 20px;
+}
+
+.textPrint {
+  color: #ffffff;
+}

@@ -1,48 +1,54 @@
 <section class='overlay-background'>
-  <div class='container section-q1'>
-    <p class='question-title title_q10'>Какое определение, по-Вашему, больше
+  <div class='container wrapper'>
+
+    <div class='progress-container'>
+      <div class='progress-bar' id='progressBar'></div>
+    </div>
+
+    <p class='question-title q10-title'>Какое определение, по-Вашему, больше
       подходит к этому геометрическому изображению:
     </p>
-    <img class='img-q10' src={{imgQ10}} width:185 alt='' />
-    <form class='q1-form form' id='quizForm'>
+    <img class='img-quiz-10' src={{imgQ10}} alt='quiz img' />
+    <form class='quiz-form' id='quizForm'>
       <input
         id='pointed'
-        class='question-text-form_input'
+        class='quiz-form_input'
         type='radio'
         name='item'
         value='pointed'
       />
-      <label for='pointed' class='question-text-form_label'>
+      <label for='pointed' class='quiz-form_label'>
 
         Оно остроконечное
       </label>
       <input
         id='stably'
-        class='question-text-form_input'
+        class='quiz-form_input'
         type='radio'
         name='item'
         value='stably'
       />
-      <label for='stably' class='question-text-form_label'>
+      <label for='stably' class='quiz-form_label'>
 
         Оно устойчиво
       </label>
       <input
         id='stateOfEquilibrium'
-        class='question-text-form_input input_q10'
+        class='quiz-form_input quiz-form_input-mod-q10'
         type='radio'
         name='item'
         value='state Of Equilibrium'
       />
       <label
         for='stateOfEquilibrium'
-        class='question-text-form_label label_q10'
+        class='quiz-form_label quiz-form_label-mod-q10'
       >
         <span>Оно-находится в состоянии равновесия</span>
 
       </label>
-
-      <button class='btn btn-q1' type='submit'>Далее</button>
+      <div class='btn-cont'>
+        <button class='btn' type='submit'>Далее</button>
+      </div>
     </form>
 
   </div>

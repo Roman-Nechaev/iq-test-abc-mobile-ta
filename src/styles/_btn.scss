@@ -1,0 +1,48 @@
+.wrapper-btn-finish {
+  display: flex;
+  // justify-items: space-between;
+}
+.finish-btn_icon {
+  margin-left: 10px;
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+.finish-btn {
+  display: flex;
+  text-align: left;
+  align-items: center;
+
+  z-index: 2;
+  margin-bottom: 20px;
+  width: 290px;
+  height: 90;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+  background: #eb1b00;
+  border: none;
+  border-radius: 5px;
+
+  &:hover {
+    cursor: pointer;
+    color: #000000;
+    background: #ffc700;
+  }
+}
+
+.btn-cont {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
