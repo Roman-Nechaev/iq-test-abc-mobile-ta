@@ -79,7 +79,6 @@ export const render = path => {
 };
 
 export const goTo = path => {
-  console.log(path);
   window.history.pushState({ path }, path, path);
   render(path);
 };

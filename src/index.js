@@ -1,4 +1,5 @@
 import initRouter from './router/index';
+
 initRouter();
 
 import './features/menu';
