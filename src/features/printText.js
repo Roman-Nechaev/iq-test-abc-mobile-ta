@@ -1,6 +1,6 @@
 export function isPrintText() {
   const text =
-    '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .';
+    '. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .';
   const delay = 100;
 
   const elem = document.getElementById('result');

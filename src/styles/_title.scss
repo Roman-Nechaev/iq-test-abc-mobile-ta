@@ -109,14 +109,17 @@
 }
 
 .fetch-content {
-  padding: 5px;
+  padding: 10px;
   font-size: 20px;
   color: #ffffff;
   background: #7c9a9a61;
 
-  text-align: center;
-
   border-radius: 5px;
+}
+.fetch-content_title {
+  text-align: center;
+  padding-bottom: 10px;
+  text-decoration-line: underline;
 }
 
 .copy {
