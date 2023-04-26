@@ -1,4 +1,5 @@
 import initRouter from './router/index';
+import { goTo } from './router/index';
 
 initRouter();
 
@@ -29,19 +30,20 @@ if (progressBarRef) progressBar();
 
 function onCollectData(item) {
   storingResponses.push(item);
-  localStorage.setItem('collectData', JSON.stringify(storingResponses));
+  // localStorage.setItem('collectData', JSON.stringify(storingResponses));
 }
 let count = 1;
 
 if (quizFormRef) {
-  btnPage.disabled = true;
+  // btnPage.disabled = true;
   quizFormRef.addEventListener('submit', onSubmitValue);
 
   function checkValue() {
     quizFormRef.addEventListener('change', e => {
-      e.currentTarget.item.value;
+      console.log('object');
+      // e.currentTarget.item.value;
 
-      btnPage.disabled = false;
+      // btnPage.disabled = false;
     });
   }
   checkValue();
@@ -52,14 +54,15 @@ const goToPage = () => {
 
   count += Number(currentPage);
 
-  window.location.pathname = `/quiz/${count}`;
+  // window.location.pathname = `/quiz/${count}`;
+  goTo(`/quiz/${count}`);
 };
 
 function onSubmitValue(evt) {
   evt.preventDefault();
-  const currentItem = evt.currentTarget.item.value;
+  // const currentItem = evt.currentTarget.item.value;
 
-  onCollectData(currentItem);
+  // onCollectData(currentItem);
 
   goToPage();
 }

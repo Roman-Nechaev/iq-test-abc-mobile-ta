@@ -93,7 +93,7 @@ const initRouter = () => {
     el.addEventListener('click', e => {
       e.preventDefault();
       const { pathname: path } = new URL(e.target.href);
-      console.log(path);
+
       goTo(path);
     });
   });
