@@ -52,7 +52,7 @@ const goToPage = () => {
 
   count += Number(currentPage);
 
-  window.location.href = `/quiz/${count}`;
+  window.location.pathname = `/quiz/${count}`;
 };
 
 function onSubmitValue(evt) {

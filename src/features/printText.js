@@ -16,7 +16,7 @@ export function isPrintText() {
       }, delay);
       return;
     }
-    window.location.href = `/quiz/13`;
+    window.location.pathname = `/quiz/13`;
   };
 
   printText(text, elem, delay);

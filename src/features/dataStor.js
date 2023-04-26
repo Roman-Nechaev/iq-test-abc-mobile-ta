@@ -35,6 +35,6 @@ export function dataStor(quizFormRef, btnPage) {
 
     count += Number(currentPage);
 
-    window.location.href = `/quiz/${count}`;
+    window.location.pathname = `/quiz/${count}`;
   };
 }
