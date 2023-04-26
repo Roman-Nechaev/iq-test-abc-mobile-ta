@@ -128,7 +128,7 @@
       rgba(38, 91, 199, 0.96) 40.62%,
       rgba(39, 98, 187, 0) 85.42%
     ),
-    url('../images/overlay-aside.png');
+    url('./images/overlay-aside.png');
 }
 
 .marks {
@@ -236,7 +236,7 @@
   top: 40px;
   right: -77px;
 
-  background: url('../images/lightning.png');
+  background: url('./images/lightning.png');
   background-repeat: no-repeat;
 }
 
@@ -249,7 +249,7 @@
   top: 220px;
   left: 0;
 
-  background: url('../images/lightning2.png');
+  background: url('./images/lightning2.png');
   background-repeat: no-repeat;
 }
 

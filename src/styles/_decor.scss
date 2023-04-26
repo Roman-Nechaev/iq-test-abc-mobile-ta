@@ -1,5 +1,5 @@
 .overlay-background {
-  background-image: url('../images/rain_bk2.jpg');
+  background-image: url('./images/rain_bk2.jpg');
 }
 
 .border-el {
@@ -20,7 +20,7 @@
   height: 200px;
 
   display: block;
-  background: url('../images/lightning_PNG9.png');
+  background: url('./images/lightning_PNG9.png');
   color: #0000a9;
   background-repeat: no-repeat;
 }
@@ -36,7 +36,7 @@
   height: 200px;
 
   display: block;
-  background: url('../images/lightning_PNG9_right.png');
+  background: url('./images/lightning_PNG9_right.png');
 
   background-repeat: no-repeat;
 }
